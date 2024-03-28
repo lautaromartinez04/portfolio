@@ -11,6 +11,13 @@
     padding: 0;
 }
 
+body{
+    background-image: url("img/fondo.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /*CABECERA*/
 h1{
     padding-top: 1vh;
@@ -24,9 +31,8 @@ header{
 #centrador{
     height: 100%;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -38,14 +44,22 @@ header{
 }
 
 #navegadores{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
     justify-content: end;
+    margin-top: 0.1vh;
 }
 
 #items {
     text-decoration: none;
+    padding: 0 4vh 0 1vh;
+    font-size: 2.5vh;
+    color: black;
+    margin-top: 0.1vh;
+}
+
+#navegadores img{
+    height: 2.5vh;
+    width: 2.5vh;
 }
 
 /*presentacion*/
@@ -75,6 +89,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
+    -webkit-text-stroke: 0.1px rgba(0, 238, 255, 0.637);
 }
 
 #yo p{
@@ -119,16 +134,16 @@ header{
 
 /* Estilos individuales de sección */
 #sobremi:hover #titulos h2 {
-    transform: translateX(110%);
+    transform: translateX(115%);
     border-radius: 2vh;
 }
 
 #proyectos:hover #titulos h2 {
-    transform: translateX(110%);
+    transform: translateX(115%);
     border-radius: 2vh;
 }
 
 #contacto:hover #titulos h2 {
-    transform: translateX(110%);
+    transform: translateX(115%);
     border-radius: 2vh;
 }

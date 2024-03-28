@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'fuente';
+    src: url('img/Utendo-Medium.ttf') format('woff2');
+    /* Puedes agregar más formatos de fuentes si lo deseas */
+  }
+  
+
+*{
+    font-family: 'fuente';  
+    margin: 0;
+    padding: 0;
+}
+
+/*CABECERA*/
+h1{
+    padding-top: 1vh;
+}
+header{
+    background-color: rgb(161, 175, 253);
+    height: 10vh;
+    border-radius:0 0vh 2vh 2vh ;
+}
+
+#centrador{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+#nombre{
+    width: 50%;
+    text-align: start;
+    margin-left: 5vh;
+    font-size: 2.5vh;
+}
+
+#navegadores{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: end;
+}
+
+#items {
+    text-decoration: none;
+}
+
+/*presentacion*/
+#presentacion{
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    height: 90vh;
+}
+
+#presentacion img{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 20%;
+    border: 1vh double rgb(161, 175, 253);
+}
+
+#foto{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#yo{
+    display: flex;
+    margin:  0 0 1%;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#yo p{
+    width: 100%;
+    font-size: 4vh;
+}
+
+#yo p span{
+    color: rgb(73, 73, 73);
+    width: 100%;
+    font-size: 3vh;
+}
+
+
+
+/*titulos*/
+
+#info{
+    width: 100%;
+}
+
+#titulos{
+    height: 10vh;
+    font-size: 4vh;
+    text-align: center;
+    margin:  1vh 1vh 1vh 0;
+    
+}
+
+#titulos h2 {
+    background-color: rgb(161, 175, 253);
+    width: 30%;
+    border-radius: 0 2vh 2vh 0;
+    padding-top: 1vh;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}
+
+#datos{
+    height: 80vh;
+}
+
+/* Estilos individuales de sección */
+#sobremi:hover #titulos h2 {
+    transform: translateX(110%);
+    border-radius: 2vh;
+}
+
+#proyectos:hover #titulos h2 {
+    transform: translateX(110%);
+    border-radius: 2vh;
+}
+
+#contacto:hover #titulos h2 {
+    transform: translateX(110%);
+    border-radius: 2vh;
+}

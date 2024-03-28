@@ -26,6 +26,8 @@ header{
     background-color: rgb(161, 175, 253);
     height: 10vh;
     border-radius:0 0vh 2vh 2vh ;
+    box-shadow: 0 0 2vh rgb(161, 175, 253);
+    border-bottom: 3px solid white;
 }
 
 #centrador{
@@ -66,7 +68,7 @@ header{
 #presentacion{
     padding: 5vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 4fr;
     height: 90vh;
 }
 
@@ -81,6 +83,7 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 #yo{
@@ -103,6 +106,17 @@ header{
     font-size: 3vh;
 }
 
+#tarjeta{
+    z-index: 0;
+    background-color: white;
+    padding: 2vh 2vh 2vh 18vh;
+    margin-right: 100px;
+    border-radius: 2vh;
+    transform: translateX(-15%);
+    box-shadow: 0 0 2vh rgb(161, 175, 253);
+    border: solid 2px rgb(161, 175, 253);
+}
+
 
 
 /*titulos*/
@@ -112,38 +126,70 @@ header{
 }
 
 #titulos{
+    display: flex;
+    justify-content: center;
     height: 10vh;
     font-size: 4vh;
     text-align: center;
-    margin:  1vh 1vh 1vh 0;
+    margin:  4vh 0 4vh 0;
+    width: 100%;
     
 }
 
 #titulos h2 {
-    background-color: rgb(161, 175, 253);
+    background-color: white;
+    box-shadow: 0 0 2vh rgb(161, 175, 253);
+    border: 2px solid rgb(161, 175, 253);
     width: 30%;
-    border-radius: 0 2vh 2vh 0;
-    padding-top: 1vh;
-    transform: translateX(-100%);
+    border-radius: 2vh;
+    padding-top: 1.5vh;
     transition: transform 0.5s ease;
 }
 
 #datos{
-    height: 80vh;
+    
 }
 
-/* Estilos individuales de sección */
-#sobremi:hover #titulos h2 {
-    transform: translateX(115%);
-    border-radius: 2vh;
+article{
+    
 }
 
-#proyectos:hover #titulos h2 {
-    transform: translateX(115%);
-    border-radius: 2vh;
+/*SOBRE MI*/
+#sobremi{
+    
 }
 
-#contacto:hover #titulos h2 {
-    transform: translateX(115%);
+#sobremi #datos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 87vh;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+#sobremi #datos div{
+    text-align: center;
+    height: 38vh;
+    width: 30vw;
+    margin: 1vh;
+    background-color: #fff;
     border-radius: 2vh;
+    box-shadow: 1px 1px 2vh rgb(0, 0, 0);
+    transition: transform 0.5s ease;
+}
+
+#sobremi #datos div:hover{
+    transform: scale(1.05);
+}
+
+#sobremi #datos div h3{
+    padding-top: 1vh;
+    width: 100%;
+    font-size: 3vh;
+}
+#sobremi #datos div img{
+    padding-top: 1vh;
+    height: 70%;
+    font-size: 3vh;
 }

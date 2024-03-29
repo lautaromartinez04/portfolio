@@ -153,6 +153,45 @@ header{
 article{
     
 }
+/*PROYECTOS*/
+
+.carousel-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 1000%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .carousel div>div>div>img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .carousel-container button>img {
+    width: 100%;
+  }
+  
+  .prev-btn{
+    left: -50px; /* Ajusta la posición a la izquierda */
+  }
+  
+  .next-btn{
+    right: -50px; /* Ajusta la posición a la derecha */
+  }
 
 /*SOBRE MI*/
 #sobremi{
@@ -188,8 +227,28 @@ article{
     width: 100%;
     font-size: 3vh;
 }
-#sobremi #datos div img{
+#sobremi #datos div>a{
+    width: 30%;
+}
+
+#sobremi #datos div>a>img{
+    width: 70%;
+    transition: transform 0.5s ease;
+}
+
+#sobremi #datos div>a>img:hover{
+    width: 70%;
+    transform: scale(1.1);
+}
+
+#Redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sobremi #datos div>img{
     padding-top: 1vh;
     height: 70%;
-    font-size: 3vh;
+    
 }

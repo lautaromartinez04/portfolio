@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
 </head>
 <body>
     <header>
@@ -50,19 +52,7 @@
             <div id="titulos">
                 <h2>Proyectos</h2>
             </div>  
-            <div class="carousel-container">
-                <button id="prevBtn" class="prev-btn"><img src="img/flechitas.png" alt=""></button>
-                <div class="carousel">
-                    <div class="carousel-content">
-                        <div class="slide"><img src="img/Estacion Meteorologica.jpg" alt="Image 1"></div>
-                        <div class="slide"><img src="image2.jpg" alt="Image 2"></div>
-                        <div class="slide"><img src="image3.jpg" alt="Image 3"></div>
-                    <!-- Agrega más imágenes según sea necesario -->
-                    </div>
-                </div>
-                <button id="nextBtn" class="next-btn"><img src="img/flechitas.png" alt=""></button>
-            </div>
-                
+              
         </article>
         <article id="sobremi">
             <div id="titulos">
@@ -94,11 +84,10 @@
                     <img src="img/mascotas.png" alt="">
                     <p>Teo, Ibra, Salem</p>
                 </div>
-                <div id="Redes">
-                    <h3>Redes sociales</h3>
-                    <a href="https://www.instagram.com/lautaro_martinez.04/" target="_blank"><img src="img/instagram.png" alt="" ></a>
-                    <a href="https://github.com/lautaromartinez04" target="_blank"><img src="img/github.png" alt=""></a>
-                    <a href="https://www.twitch.tv/xcastaneusx"><img src="img/twitch.png" alt=""></a>
+                <div id="Trabajos">
+                    <h3>Trabajos</h3>
+                    <img src="img/serviciotecnico.png" alt="">
+                    <p>Puerto Noria Computacion - Servicio Tecnico <br> Don Emilio - Area de mantenimiento</p>
                 </div>
             </div>
         </article>
@@ -106,11 +95,47 @@
             <div id="titulos">
                 <h2>Contacto</h2>
             </div>
-            <div id="datos">   
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum commodi fugiat voluptates laudantium recusandae ipsam vel iusto consequatur culpa repellat at cupiditate quibusdam, facilis perferendis eligendi, amet rerum! Blanditiis, molestias.
+            <div id="datosc">   
+                <div id="pincontacto">
+                    <a href="https://maps.app.goo.gl/B63itVgPJrhopy639" target="_blank" id="ciudad">
+                        <h3>Villa Nueva, Cordoba, Argentina  </h3>
+                        <div style="width: 10%;"></div>
+                        <img id="pin" src="img/pin.png" alt="">
+                    </a>
+                    <div id="centradorcontacto">
+                        <div id="datoscontacto">
+                            <p id="nombredato">Correo:</p>
+                            <a href="mailto:lautarom403@gmail.com" id="infodato" target="_blank">lautarom403@gmail.com</a>
+                            <p id="nombredato">Whatsapp:</p>
+                            <p id="infodato">+54 9 0353 15 482 6765</p>
+                            <p id="nombredato">Direccion:</p>
+                            <p id="infodato">Manuel Modesto Moreno 233</p>
+                            <p id="nombredato">Steam:</p>
+                            <a href="https://steamcommunity.com/id/castaneus22/" id="infodato" target="_blank">xCASTANEUSx</a>
+                        </div>
+                        <div id="qrcontacto">
+                            <img src="img/wpp.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </article>
     </section>
+    <footer>
+        <div id="titulofooter">
+            <h2>Gracias por su visita</h2>
+            <div id="Redes">
+                <h3>Redes sociales</h3>
+                <a href="https://www.instagram.com/lautaro_martinez.04/" target="_blank"><img src="img/instagram.png" alt="" ></a>
+                <a href="https://github.com/lautaromartinez04" target="_blank"><img src="img/github.png" alt=""></a>
+                <a href="https://www.twitch.tv/xcastaneusx" target="_blank"><img src="img/twitch.png" alt=""></a>
+            </div>
+            <div id="subir">
+                <a href="#centrador"><img src="img/flechitasarriba.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

@@ -194,13 +194,13 @@ header{
 
 #sobremi #datos div{
     text-align: center;
-    height: 38vh;
+    height: 30vh;
     width: 30vw;
     margin: 1vh;
     background-color: #fff;
     border-radius: 2vh;
     box-shadow: 1px 1px 2vh rgb(0, 0, 0);
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, all 1s ease;
 }
 
 #sobremi #datos div:hover{

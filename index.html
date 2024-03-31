@@ -6,6 +6,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </head>
 <body>
@@ -24,14 +26,14 @@
             </div>
         </div>
     </header>
-    <section id="presentacion">
+    <section id="presentacion" data-aos="fade-up" data-aos-duration="1000">
         <div>
 
         </div>
         <div id="foto">
             <img src="img/foto.jpg" alt="">
         </div>
-        <div>
+        <div >
             <div id="yo">
                 <div id="tarjeta">
                     <p><span>NOMBRE:</span> <br>    Lautaro Martinez</p>
@@ -48,8 +50,8 @@
     </section>
 
     <section id="info">
-        <article id="proyectos">
-            <div id="titulos">
+        <article id="proyectos" >
+            <div id="titulos" data-aos="fade-down">
                 <h2>Proyectos</h2>
             </div>  
             <div id="carrusel">
@@ -58,36 +60,37 @@
               
         </article>
         <article id="sobremi">
-            <div id="titulos">
+            <div id="titulos" data-aos="fade-down"> 
                 <h2>Sobre mi</h2>
             </div>
             <div id="datos">   
-                <div>
+                <div data-aos="fade-down-right" data-aos-duration="1500" >
                     <h3>Apasionado del futbol</h3>
                     <img src="img/pelota.png" alt="">
-                    <p><br>Me gusta Jugar, deberia aprender. <br> simpatizante de Boca Juniors y Manchester United</p>
+                    <p><br>
+                        Me gusta Jugar, deberia aprender. <br> simpatizante de Boca Juniors y Manchester United</p>
                 </div>
-                <div>
+                <div data-aos="fade-down" data-aos-duration="1500"> 
                     <h3>Gamer</h3>
                     <img src="img/joystick.png" alt="">
                     <p><br>Juego Rocket League, CS2, Fortnite, League of Legends</p>
                 </div>
-                <div>
+                <div data-aos="fade-down-left" data-aos-duration="1500">
                     <h3>Autodidacta</h3>
                     <img src="img/libro.png" alt="">
                     <p><br>Aprendo rapido y de forma autodidacta</p>
                 </div>
-                <div>
+                <div data-aos="fade-up-right" data-aos-duration="1500">
                     <h3>Gustos musicales variados</h3>
                     <img src="img/notas.png" alt="">
                     <p><br>Desde la musica clasica hasta el rock, pasando por todos los demas generos</p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1500">
                     <h3>Mascotas</h3>
-                    <img src="img/mascotas.png" alt="">
+                    <img src="img/mascotas.png" alt="" >
                     <p><br>Teo, Ibra, Salem</p>
                 </div>
-                <div id="Trabajos">
+                <div id="Trabajos" data-aos="fade-up-left" data-aos-duration="1500">
                     <h3>Trabajos</h3>
                     <img src="img/serviciotecnico.png" alt="">
                     <p><br>Puerto Noria Computacion - Servicio Tecnico <br> Don Emilio - Area de mantenimiento</p>
@@ -95,10 +98,10 @@
             </div>
         </article>
         <article id="contacto">
-            <div id="titulos">
+            <div id="titulos" data-aos="fade-down">
                 <h2>Contacto</h2>
             </div>
-            <div id="datosc">   
+            <div id="datosc" data-aos="flip-up">   
                 <div id="pincontacto">
                     <a href="https://maps.app.goo.gl/B63itVgPJrhopy639" target="_blank" id="ciudad">
                         <h3>Villa Nueva, Cordoba, Argentina  </h3>

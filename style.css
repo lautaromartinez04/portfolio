@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url("img/fondo.jpg");
+    background-image: url("img/fondo.webp");
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -194,7 +194,7 @@ header{
     margin-bottom: 2vh;
 }
 
-#sobremi #datos div{
+#sobremi #datos>div{
     text-align: center;
     height: 30vh;
     width: 30vw;
@@ -217,6 +217,12 @@ header{
 }
 #sobremi #datos div>a{
     height: 60%;
+}
+
+#fotitos{
+    height: 0%;
+    background-color: none;
+    opacity: 0;
 }
 
 

@@ -12,3 +12,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+$(document).ready(function() {
+    // Inicializar Fancybox
+    $("[data-fancybox='images']").fancybox({
+        loop: true // Para habilitar el bucle infinito del carrusel
+    });
+});

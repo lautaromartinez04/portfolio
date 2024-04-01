@@ -202,7 +202,7 @@ header{
     background-color: #fff;
     border-radius: 2vh;
     box-shadow: 1px 1px 2vh rgb(0, 0, 0);
-    transition: transform 0.5s ease, all 1s ease;
+    transition: transform 0.5s ease, all 0.5s ease;
 }
 
 #sobremi #datos div:hover{
@@ -326,20 +326,26 @@ header{
     width: auto;
     background-color: #fff;
     text-align: center;
-    border-radius: 2vh;
+    border-radius: 0 0vh 2vh 2vh; 
     box-shadow: 1px 1px 2vh rgb(0, 0, 0);
+    padding: 2vh;
 }
+
 
 #diploma img{
     height: 75%;
-
+    box-shadow: 1px 1px 1vh rgb(0, 0, 0);
+    transition: transform 0.1s ease, all 0.2s ease;
+}
+#diploma img:hover{
+    transform: scale(1.03);
 }
 
 #diploma div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 25%;
     font-size: 4vh;
     
 }

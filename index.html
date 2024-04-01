@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -21,6 +26,8 @@
                 <a href="#proyectos" id="items">Proyectos</a> 
                 <img src="img/flechitas.png" alt="">
                 <a href="#sobremi" id="items">Sobre mi </a> 
+                <img src="img/flechitas.png" alt="">
+                <a href="#certificados" id="items">Certificados</a> 
                 <img src="img/flechitas.png" alt="">
                 <a href="#contacto" id="items">Contacto</a> 
             </div>
@@ -55,7 +62,7 @@
                 <h2>Proyectos</h2>
             </div>  
             <div id="carrusel">
-                <img src="img/Estacion meteorologica.png" alt="">
+                <img src="https://raw.githubusercontent.com/lautaromartinez04/portfolio/main/img/Estacion%20meteorologica.png" alt="">
             </div>
               
         </article>
@@ -87,13 +94,39 @@
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1500">
                     <h3>Mascotas</h3>
-                    <img src="img/mascotas.png" alt="" >
+                    <a data-fancybox="mascotas" href="img/mascotas.png">
+                        <img src="img/mascotas.png" alt="Imagen">
+                    </a>
                     <p><br>Teo, Ibra, Salem</p>
                 </div>
                 <div id="Trabajos" data-aos="fade-up-left" data-aos-duration="1500">
                     <h3>Trabajos</h3>
                     <img src="img/serviciotecnico.png" alt="">
                     <p><br>Puerto Noria Computacion - Servicio Tecnico <br> Don Emilio - Area de mantenimiento</p>
+                </div>
+            </div>
+        </article>
+        <article id="certificados">
+            <div id="titulos" data-aos="fade-down">
+                <h2>Certificados</h2>
+            </div>
+            <div id="diplomas">
+                <div id="diploma">
+                    <a data-fancybox="nodejs" href="https://raw.githubusercontent.com/lautaromartinez04/curso-nodeJS/main/image.png">
+                        <img src="https://raw.githubusercontent.com/lautaromartinez04/curso-nodeJS/main/image.png" alt="Diploma Curso Node.js">
+                    </a>
+                    <div>
+                        <p>Curso de Backend con Node.JS</p>
+                    </div>
+                </div>
+                <div id="diploma">
+                    <a data-fancybox="ceneisi" href="https://raw.githubusercontent.com/lautaromartinez04/curso-nodeJS/main/image.png">
+                        <img src="https://raw.githubusercontent.com/lautaromartinez04/curso-nodeJS/main/image.png" alt="Diploma Curso Node.js">
+                    </a>
+                    <div>
+                        <p>Participacion CENEISI UTN</p>
+                    </div>
+                    
                 </div>
             </div>
         </article>

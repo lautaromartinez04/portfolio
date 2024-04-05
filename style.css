@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url("img/fondo.webp");
+    background-image: url("img/fondo.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -97,7 +97,7 @@ header{
     -webkit-text-stroke: 0.1px rgba(0, 238, 255, 0.637);
 }
 
-#yo p{
+#yo #tarjetadato{
     width: 100%;
     font-size: 4vh;
 }
@@ -203,7 +203,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 80vh;
+    height: 90vh;
     align-items: center;
     margin-bottom: 2vh;
 }
@@ -239,11 +239,10 @@ header{
     opacity: 0;
 }
 
-
-
-#sobremi #datos div>img,#sobremi #datos div>a>img{
+#sobremi #datos div>i,#sobremi #datos div>a>img,#sobremi #datos div>a>i{
     padding-top: 1vh;
     height: 50%;
+    font-size: 15vh;
 }
 
 #sobremi #datos div p{
@@ -251,6 +250,15 @@ header{
     font-size: 2vh;
     height: 30;
 }
+.iconos{
+    color: rgb(115, 135, 248);
+    transition: all 0.1s ease;
+}
+
+.iconos:hover{
+    color: rgb(0, 0, 0);
+}
+
 
 /*CONTACTO*/
 
@@ -261,7 +269,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url("img/fondo5.PNG");
+    background-image: url("img/fondo5.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -356,7 +364,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 80vh;
+    align-items: center;
+    height: 90vh;
     width: 100%;
 }
 
@@ -454,7 +463,6 @@ footer img:hover{
 }
 
 #subir img{
-
     margin: 2vh 10vh 0 0;
     transition: transform 0.5s ease;    
 }

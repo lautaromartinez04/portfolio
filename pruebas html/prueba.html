@@ -1,50 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carousel con Swiper</title>
-  <!-- Estilos de Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <!-- Estilos personalizados (opcional) -->
-  <style>
-    /* Estilos personalizados aquí */
-  </style>
+  <title>Logotipo con Bootstrap</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-futbol"></i> <!-- Logotipo de Twitter -->
+      </a>
+    </nav>
+  </header>
+  <main>
+    <!-- Contenido de tu página -->
+  </main>
+  <footer>
+    <!-- Pie de página -->
+  </footer>
 
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="imagen1.jpg" alt="Imagen 1"></div>
-    <div class="swiper-slide"><img src="imagen2.jpg" alt="Imagen 2"></div>
-    <div class="swiper-slide"><img src="imagen3.jpg" alt="Imagen 3"></div>
-    <!-- Añade más imágenes según necesites -->
-  </div>
-  <!-- Si quieres añadir navegación -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <!-- Si quieres añadir paginación -->
-  <div class="swiper-pagination"></div>
-</div>
-
-<!-- JavaScript de Swiper -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- Inicialización de Swiper -->
-<script>
-  var swiper = new Swiper('.swiper-container', {
-    // Configuración opcional:
-    loop: true, // Para que el carrusel sea infinito
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true, // Para permitir hacer clic en los puntos de paginación
-    },
-  });
-</script>
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

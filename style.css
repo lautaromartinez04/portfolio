@@ -56,10 +56,9 @@ header{
     padding: 0 4vh 0 1vh;
     font-size: 2.5vh;
     color: black;
-    margin-top: 0.1vh;
 }
 
-#navegadores img{
+#navegadores i{
     height: 2.5vh;
     width: 2.5vh;
 }
@@ -185,6 +184,8 @@ header{
     align-items: center;
     
 }
+
+
 /*SOBRE MI*/
 #sobremi{
     display: flex;
@@ -213,7 +214,7 @@ header{
     height: 30vh;
     width: 30vw;
     margin: 1vh;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 2vh;
     box-shadow: 1px 1px 2vh rgb(0, 0, 0),inset 1px 1px 2vh rgb(161, 175, 253);
     transition: transform 0.5s ease, all 0.5s ease;
@@ -251,12 +252,13 @@ header{
     height: 30;
 }
 .iconos{
-    color: rgb(115, 135, 248);
+    color: rgb(161, 175, 253);
     transition: all 0.1s ease;
+    -webkit-text-stroke: #000000 2px;
 }
 
 .iconos:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(62, 91, 252);
 }
 
 
@@ -449,11 +451,20 @@ footer #Redes h3 {
 
 footer img{
     height: 7vh;
-    transition: transform 0.5s ease;  
+    transition: transform 0.5s ease;
 }
 
-footer img:hover{
+.footericon{
+    font-size: 7vh;
+    transition: all 0.5s ease;
+    color: #ffffff;
+    -webkit-text-stroke:#000000 2px;
+    opacity: 0.5;
+}
+
+#subir .arriba:hover,.footericon:hover{
     transform: scale(1.2);
+    opacity: 1;
 }
 
 #subir{
@@ -462,9 +473,13 @@ footer img:hover{
     justify-content: end;
 }
 
-#subir img{
+#subir .arriba{
     margin: 2vh 10vh 0 0;
-    transition: transform 0.5s ease;    
+    transition: all 0.5s ease;
+    font-size: 10vh;
+    color: #fff;
+    -webkit-text-stroke:#000000 2px;
+    opacity: 0.5;
 }
 
 

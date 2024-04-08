@@ -7,18 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- fotos -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <!-- alertas -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="alerts.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <title>PORTFOLIO</title>
 
 </head>
@@ -84,76 +78,86 @@
         <!-- Proyectos -->
         
         <section id="proyectos" class="">
-            <div class="container">
-                <h2 class="text-center my-4" >Mis Proyectos</h2>
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
-                      <div class="card-body">
-                        <h5 class="card-title">Proyecto 1</h5>
-                        <p class="card-text">Descripción del proyecto 1.</p>
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
-                      <div class="card-body">
-                        <h5 class="card-title">Proyecto 2</h5>
-                        <p class="card-text">Descripción del proyecto 2.</p>
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
-                      <div class="card-body">
-                        <h5 class="card-title">Proyecto 3</h5>
-                        <p class="card-text">Descripción del proyecto 3.</p>
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
-                      </div>
-                    </div>
+          <div class="container">
+            <h2 class="text-center my-4" >Mis Proyectos</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Proyecto 1</h5>
+                    <p class="card-text">Descripción del proyecto 1.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
                   </div>
                 </div>
               </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Proyecto 2</h5>
+                    <p class="card-text">Descripción del proyecto 2.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Proyecto 3</h5>
+                    <p class="card-text">Descripción del proyecto 3.</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!-- Sobre mi -->
         
-        <section id="sobremi">
-            <div class="container">
-                <div class="infographic">
-                    <div class="info-item" onclick="futbol()">
-                        <i class="icon fas fa-futbol"></i>
-                        <p>Fútbol</p>
-                    </div>
-                    <div class="info-item" onclick="alert('Juego Rocket League, CS2, Fortnite, League of Legends')">
-                        <i class="icon fas fa-gamepad"></i>
-                        <p>Gamer</p>
-                    </div>
-                    <div class="info-item" onclick="alert('Aprendo rapido y de forma autodidacta')">
-                        <i class="icon fas fa-graduation-cap"></i>
-                        <p>Autodidacta</p>
-                    </div>
-                    <div class="info-item">
-                        <a href="img/ibra.PNG"  data-fancybox="mascotas" data-caption="Ibra" style="text-decoration: none; color: #212529;">
-                        <i class="icon fas fa-paw"></i>
-                            <img src="img/ibra.PNG" alt="Imagen" id="fotitos" style="display: none;">
-                            <p>Mascotas</p>
-                        </a>
-                        <a href="img/teo.jpg" data-fancybox="mascotas" data-caption="Teo" style="display: none;"></a>
-                        <a href="img/salem.PNG" data-fancybox="mascotas" data-caption="Salem" style="display: none;"></a>  
-                    </div>    
-                     
-                    <div class="info-item" onclick="alert('Desde la musica clasica hasta el rock, pasando por todos los demas generos')">
-                        <i class="icon fas fa-music"></i>
-                        <p>Música</p>
-                  </div>
+        <section id="sobremi" class="text-center">
+          <div class="container">
+            <h2 class="my-4">Sobre mí</h2>
+            <div class="row justify-content-center">
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="info-item" onclick="futbol()">
+                  <i class="icon fas fa-futbol"></i>
+                  <p>Fútbol</p>
                 </div>
               </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="info-item" onclick="gamer()">
+                  <i class="icon fas fa-gamepad"></i>
+                  <p>Gamer</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="info-item">
+                  <a href="img/ibra.PNG" data-fancybox="mascotas" data-caption="Ibra" style="text-decoration: none; color: #212529;">
+                    <i class="icon fas fa-paw"></i>
+                    <img src="img/ibra.PNG" alt="Imagen" id="fotitos" style="display: none;">
+                    <p>Mascotas</p>
+                  </a>
+                  <a href="img/teo.jpg" data-fancybox="mascotas" data-caption="Teo" style="display: none;"></a>
+                  <a href="img/salem.PNG" data-fancybox="mascotas" data-caption="Salem" style="display: none;"></a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="info-item" onclick="musica()">
+                  <i class="icon fas fa-music"></i>
+                  <p>Música</p>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6">
+                <div class="info-item" onclick="alert('Desde la música clásica hasta el rock, pasando por todos los demás géneros')">
+                  <i class="icon fas fa-tools"></i>
+                  <p>Trabajos</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         
         <!-- Certificados -->
@@ -168,8 +172,16 @@
 
         </section>
     </main>
-    
-    
+    <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- fotos -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- alertas -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="alerts.js"></script>
 </body>
     
 </html>

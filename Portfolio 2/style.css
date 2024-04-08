@@ -13,13 +13,9 @@ body {
 }
 
 /*SOBRE MI*/
-body {
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
-}
 
 .infographic {
-    max-width: 600px;
+    max-width: 100%;
     margin: 50px auto;
     display: flex;
     justify-content: space-around;
@@ -29,13 +25,19 @@ body {
 .info-item {
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .info-item:hover {
     transform: scale(1.1);
+    color: hsl(234, 95%, 75%);;
 }
 
 .icon {
     font-size: 48px;
     margin-bottom: 10px;
 }
+
+.alertgames {
+    width: 80%;
+  }

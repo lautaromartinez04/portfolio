@@ -14,6 +14,13 @@ body {
 
 /*SOBRE MI*/
 
+#sobremi,#proyectos, #contacto , #certificados{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .infographic {
     max-width: 100%;
     margin: 50px auto;

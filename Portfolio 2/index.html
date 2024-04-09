@@ -134,14 +134,10 @@
                 </div>
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="info-item">
-                  <a href="img/ibra.PNG" data-fancybox="mascotas" data-caption="Ibra" style="text-decoration: none; color: #212529;">
+                <div class="info-item" onclick="mascotas()">
                     <i class="icon fas fa-paw"></i>
-                    <img src="img/ibra.PNG" alt="Imagen" id="fotitos" style="display: none;">
                     <p>Mascotas</p>
                   </a>
-                  <a href="img/teo.jpg" data-fancybox="mascotas" data-caption="Teo" style="display: none;"></a>
-                  <a href="img/salem.PNG" data-fancybox="mascotas" data-caption="Salem" style="display: none;"></a>
                 </div>
               </div>
               <div class="col-lg-2 col-md-4 col-sm-6">
@@ -163,13 +159,43 @@
         <!-- Certificados -->
         
         <section id="certificados">
-
+          <div class="container">
+            <h2 class="text-center my-4">Certificados</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="certificate">
+                  <a href="img/ceneisi.jpg" data-fancybox="cneisi">
+                    <img src="img/ceneisi.jpg" alt="Certificado 1" class="img-fluid" style="height: 40vh;">
+                  </a>
+                  <h3>CNEISI 2023</h3>
+                  <p>Por participacion CNEISI, Congreso Nacional de Estudiantes de Ingenieria en Sistemas de Informacion</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="certificate">
+                  <a href="https://raw.githubusercontent.com/lautaromartinez04/curso-nodeJS/main/image.png" data-fancybox="nodejs">
+                    <img src="https://raw.githubusercontent.com/lautaromartinez04/curso-nodeJS/main/image.png" alt="Certificado 2" class="img-fluid" style="height: 40vh;">
+                  </a>
+                  <h3>Node.JS</h3>
+                  <p>Curso completo de Backend con Node.JS</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         
         <!-- Contacto -->
         
         <section id="contacto">
-
+          <div class="container mt-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Nombre: Lautaro Martinez</h5>
+                <p class="card-text">Correo Electrónico: lautarom403@gmail.com</p>
+                <p class="card-text">Teléfono: +54 0353 15 482 6765</p>
+              </div>
+            </div>
+          </div>
         </section>
     </main>
     <!-- Bootstrap CSS -->
@@ -177,8 +203,9 @@
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- fotos -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- alertas -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="alerts.js"></script>

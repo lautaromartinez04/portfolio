@@ -60,6 +60,50 @@ function gamer(){
     });
 }
 
+function mascotas(){
+    Swal.fire({
+        title: "Mascotas",
+        html: `
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" ></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="transition-duration: 0.2s;">
+                    <img class="d-block w-100" src="img/ibra.PNG" alt="Primera imagen" style="height: 60vh; width: auto;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 style="-webkit-text-stroke: 1px black">IBRA</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="transition-duration: 0.2s;">
+                    <img class="d-block w-100" src="img/teo.jpg" alt="Segunda imagen" style="height: 60vh; width: auto;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 style="-webkit-text-stroke: 1px black">TEO</h4>
+                    </div>
+                </div>
+                <div class="carousel-item" style="transition-duration: 0.2s;">
+                    <img class="d-block w-100" src="img/salem.PNG" alt="Tercera imagen" style="height: 60vh; width: auto;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 style="-webkit-text-stroke: 1px black">SALEM</h4>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>`,
+        imageAlt: "Custom image",
+        confirmButtonText: 'Cerrar'
+    });
+}
+
 function musica(){
     Swal.fire({
         title: "Datos de youtube Music",

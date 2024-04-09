@@ -6,14 +6,14 @@ function futbol(){
         <div class="row">
           <div class="col-md-6">
             <p class="text-center"><strong>Boca Juniors</strong></p>
-            <a href="" class="text-center">
+            <a href="https://www.bocajuniors.com.ar/" class="text-center" target="_blank">
                 <img src="img/Bocajs.png" class="img-fluid" alt="" style="max-width: 100%;">
             </a>
             <!-- Información sobre Boca Juniors -->
           </div>
           <div class="col-md-6">
             <p class="text-center"><strong>Manchester United</strong></p>
-            <a href="">
+            <a href="https://www.manutd.com/es" class="text-center" target="_blank">
                 <img src="img/Manchester.png" class="img-fluid" alt="" style="max-width: 100%;">
             </a>
             <!-- Información sobre Manchester United -->
@@ -26,48 +26,37 @@ function futbol(){
 
 function gamer(){
     Swal.fire({
-        customClass: {
-            popup: 'alertgames'
-        },
         title: "Juegos",
         html: `
                 <div class="row">
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center"><strong>Rocket league</strong></p>
-                        <a href="" class="text-center">
                         <img src="img/rocketleague.png" class="img-fluid row" alt="" style="max-width: 100%;">
-                        </a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center"><strong>Counter strike 2</strong></p>
-                        <a href="">
                         <img src="img/cs2.png" class="img-fluid" alt="" style="max-width: 100%;">
-                        </a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center"><strong>League of Legends</strong></p>
-                        <a href="">
                         <img src="img/lol.png" class="img-fluid" alt="" style="max-width: 100%;">
-                        </a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center" style="width: 100%;"><strong>Fortnite</strong></p>
-                        <a href="">
                             <img src="img/fortnite.png" class="img-fluid" alt="" style="max-width: 100%;">
-                        </a>
                     </div>
                 </div>
                 </div>`,
         imageAlt: "Custom image",
         confirmButtonText: 'Cerrar',
-        
+        width: "70%", 
     });
 }
 
@@ -126,9 +115,33 @@ function musica(){
     </div>`,
         imageAlt: "Custom image",
         confirmButtonText: 'Cerrar',
-        customClass: {
-            popup: 'alertgames'
-        },
+        width: "70%", 
+    });
+}
+
+function trabajos(){
+    Swal.fire({
+        title: "Trabajos",
+        width: "50%",
+        html: `
+        <div class="row">
+            <div class="col-md-5 my-2 mx-4" style="border: 1px solid #aeaeae;">
+                <p class="text-center" style="font-size: 2.5vh"><strong>Puerto Noria Computacion</strong></p>
+                <a href="" class="text-center">
+                    <img src="img/pnc.png" class="img-fluid" alt="" >
+                </a>
+                <p class="text-left" style="font-size: 2vh"><br> - Servicio técnico de computadoras, Notebooks e impresoras.<br>- Instalación de cámaras de seguridad.<br>- Tercerizados por BNA, BANCOR, GALICIA Y MACRO.</p>
+            </div>
+            <div class="col-md-5 my-2 mx-4" style="border: 1px solid #aeaeae;">
+                <p class="text-center"><strong>Don Emilio SRL</strong></p>
+                <a href="">
+                    <img src="img/donemilio.png" class="img-fluid" alt="" style="max-width: 100%;">
+                </a>
+                <p class="text-left" style="font-size: 2vh"><br>- Mantenimiento de computadoras, notebooks e impresoras.<br>- Cableados de red.<br>- Instalaciones de sistemas (MAGNUS, MAGNUS PRUEBA, SIDGE, Crystal Report, entre otros.).</p>
+            </div>
+        </div>`,
+        imageAlt: "Custom image",
+        confirmButtonText: 'Cerrar'
     });
 }
 

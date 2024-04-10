@@ -19,7 +19,8 @@ function futbol(){
             <!-- Información sobre Manchester United -->
           </div>`,
         imageAlt: "Custom image",
-        confirmButtonText: 'Cerrar'
+        confirmButtonText: 'Cerrar',
+        
     });
 }
 
@@ -32,31 +33,31 @@ function gamer(){
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center"><strong>Rocket league</strong></p>
-                        <img src="img/rocketleague.png" class="img-fluid row" alt="" style="max-width: 100%;">
+                        <img src="img/rocketleague.png" class="img-fluid row" alt="" style="height: 30vh;">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center"><strong>Counter strike 2</strong></p>
-                        <img src="img/cs2.png" class="img-fluid" alt="" style="max-width: 100%;">
+                        <img src="img/cs2.png" class="img-fluid" alt="" style="height: 30vh;">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center"><strong>League of Legends</strong></p>
-                        <img src="img/lol.png" class="img-fluid" alt="" style="max-width: 100%;">
+                        <img src="img/lol.png" class="img-fluid" alt="" style="height: 30vh;">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="row">
                         <p class="text-center" style="width: 100%;"><strong>Fortnite</strong></p>
-                            <img src="img/fortnite.png" class="img-fluid" alt="" style="max-width: 100%;">
+                            <img src="img/fortnite.png" class="img-fluid" alt="" style="height: 30vh; bground-color: #111111">
                     </div>
                 </div>
                 </div>`,
         imageAlt: "Custom image",
         confirmButtonText: 'Cerrar',
-        width: "70%", 
+        width: "70%",
     });
 }
 
@@ -100,7 +101,7 @@ function mascotas(){
             </a>
         </div>`,
         imageAlt: "Custom image",
-        confirmButtonText: 'Cerrar'
+        confirmButtonText: 'Cerrar',
     });
 }
 
